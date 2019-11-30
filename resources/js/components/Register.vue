@@ -107,7 +107,7 @@
         methods:{
             checkEmail(){
 
-                axios.post('/vue/checkEmailUser',{email:this.email}).then(valid => {
+                axios.post('/api/vue/checkEmailUser',{email:this.email}).then(valid => {
 
                     if(valid.data === false){
 
@@ -122,7 +122,7 @@
             },
             checkUsername(){
 
-                axios.post('/vue/checkUsername',{username:this.username}).then(valid => {
+                axios.post('/api/vue/checkUsername',{username:this.username}).then(valid => {
 
                     if(valid.data === false){
 

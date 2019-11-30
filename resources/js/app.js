@@ -19,6 +19,7 @@ import App from "./App.vue"
 Vue.use(Vuetify);
 Vue.use(Vuex);
 
+Vue.component('pagination', require('laravel-vue-pagination'));
 
 
 
